@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime, timedelta
 
+# followinf are all the necessar business logic functions as well as API fetching function defined
 # Fetch external weather data
 def get_weather(city, country):
     api_key = '1c920b545ed61c6a7d652acbe892024a'

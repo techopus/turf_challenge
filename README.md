@@ -3,7 +3,9 @@
 ## Start
 1. git clone https://github.com/techopus/turf_challenge.git
 2. Go to project folder
-3. run python app.py
+3. pip install -r requirements.txt 
+4. Having mongodb installed, connect to the localhost(here localhost:27017): sudo systemctl start mongod
+5. run python app.py
 
 ## To check JSON output for endpoint calls
 1. Go to localhost http://127.0.0.1:5000
